@@ -27,6 +27,7 @@ $themes: (
     file: $dark-blue,
     iconBackground: $white,
     cardBackground: $white,
+    stackOverflow: #F48024
   ),
   dark: (
     backgroundColor: #222,
@@ -170,6 +171,9 @@ $themes: (
     }
     &.hr {
       color: themed("hr");
+    }
+    &.stackOverflow {
+      color: themed("stackOverflow");
     }
     &.mail {
       color: themed("mail");
