@@ -2,7 +2,7 @@
 company: "Flair Data Systems"
 location: "Plano, TX"
 position: "Software Engineer Intern"
-tags: ["React.js", "Webpack", "Docker", "Ruby"]
+tags: ["Angular 4", "Bootstrap", "Hadoop", "Docker", "Bash"]
 startDate: "2017-06-06"
 endDate: "2017-08-20"
 ---

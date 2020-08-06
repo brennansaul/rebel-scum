@@ -2,7 +2,7 @@
 company: "Pariveda Solutions"
 location: "Dallas, TX"
 position: "Software Engineer | Technology Consultant"
-tags: ["React.js", "Webpack", "Docker", "Ruby"]
+tags: ["React", "AWS", "Docker", "Drupal", "AWS"]
 startDate: "2018-02-20"
 endDate: "2020-08-06"
 ---
