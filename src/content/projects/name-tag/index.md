@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Name Tag"
-tags: ["Project", "Python", "Raspberry Pi", "DIY"]
+tags: ["Python", "Raspberry Pi", "DIY"]
 date: "2017-10-17"
 ---
 
