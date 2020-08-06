@@ -1,10 +1,10 @@
 ---
-company: "Facebook"
-location: "Toronto, ON"
-position: "Full-Stack Developer Intern"
-tags: ["React", "Redux", "Docker", "Datadog"]
-startDate: "2016-05-04"
-endDate: "2016-09-01"
+company: "Pariveda Solutions"
+location: "Dallas, TX"
+position: "Software Engineer | Technology Consultant"
+tags: ["React.js", "Webpack", "Docker", "Ruby"]
+startDate: "2018-02-20"
+endDate: "2020-08-06"
 ---
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget augue commodo, rutrum enim vel, varius lorem. Ut nec sem metus.</p>

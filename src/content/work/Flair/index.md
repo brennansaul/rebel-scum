@@ -1,10 +1,10 @@
 ---
-company: "Google"
-location: "San Francisco, CA"
-position: "Software Engineering Intern"
+company: "Flair Data Systems"
+location: "Plano, TX"
+position: "Software Engineer Intern"
 tags: ["React.js", "Webpack", "Docker", "Ruby"]
-startDate: "2017-09-04"
-endDate: "2017-12-21"
+startDate: "2017-06-06"
+endDate: "2017-08-20"
 ---
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget augue commodo, rutrum enim vel, varius lorem. Ut nec sem metus.</p>
