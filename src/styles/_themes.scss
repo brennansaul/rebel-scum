@@ -8,6 +8,7 @@
 $themes: (
   light: (
     backgroundColor: white,
+    parallax1BackgroundColor: $gray-800,
     footerBackground: white,
     navBackground: $gray-100,
     secondary: $gray-900,
@@ -31,6 +32,7 @@ $themes: (
   ),
   dark: (
     backgroundColor: #222,
+    parallax1BackgroundColor: #222,
     footerBackground: #222,
     secondary: $gray-100,
     navBackground: $dark-gray,
@@ -195,6 +197,10 @@ h5 {
 }
 
 div {
+  background: transparent;
+}
+
+.app-container {
   @include themify($themes) {
     background: themed("backgroundColor");
   }
@@ -203,5 +209,11 @@ div {
 p {
   @include themify($themes) {
     color: themed("textColor");
+  }
+}
+
+.parallax-background-1 {
+  @include themify($themes) {
+    background-color: themed("parallax1BackgroundColor");
   }
 }
