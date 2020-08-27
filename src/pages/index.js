@@ -26,7 +26,7 @@ export default ({ data }) => {
 
         <ParallaxLayer offset={0} speed={1}>
         {/* <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#805E73' }} /> */}
-          <Container className="text-center pt-5 mt-5" fluid>
+          <Container className="flex flex-col items-center pt-5 mt-5" fluid>
             <Image
               width="150"
               height="150"
