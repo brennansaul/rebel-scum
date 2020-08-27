@@ -59,6 +59,7 @@ module.exports = {
     ],
   },
   plugins: [
+    // `gatsby-plugin-postcss`,
     `gatsby-plugin-preload-link-crossorigin`,
     `gatsby-plugin-catch-links`,
     {
@@ -68,7 +69,15 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
+        ],
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

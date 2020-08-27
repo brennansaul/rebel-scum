@@ -7,13 +7,13 @@ import { SEO } from "../utils"
 import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
+import ProjectsSection from '../components/Sections/ProjectsSection';
 
 export default ({ data }) => {
   const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
   const { dark } = useContext(ThemeContext)
   const parallax = useRef();
   const url = (name, wrap = false) => `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
-
 
   return (
     <PageLayout>
@@ -140,6 +140,7 @@ export default ({ data }) => {
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={1}>
               <h1 style={{ pointerEvents: 'none', paddingTop: '100px' }}><span className="first-name">Projects</span></h1>
+              <ProjectsSection />
         </ParallaxLayer>              
       </Parallax>
     </PageLayout>
