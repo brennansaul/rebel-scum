@@ -15,7 +15,7 @@ const Projects = ({ data }) => {
     // <PageLayout>
     //   <SEO title="Projects" />
     //   <PageTitle title="Projects" />
-      <Container className="text-left">
+      <Container className="text-left" style={{width: '70%'}}>
         <section>
           {allProjects.map(({ node }) => (
             <div key={node.id} className="p-3">
