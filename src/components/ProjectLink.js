@@ -17,12 +17,12 @@ export default ({ excerpt, featuredImages, tags, title, to }) => {
             ))}
         </Row> */}
         <div className="flex flex-col lg:flex-row justify-between">
-          <div>
+          <div className="lg:w-5/6">
               <h2>{title}</h2>
               {/* <Ago>{moment(date, 'MMMM-DD-YYYY').fromNow()}</Ago> */}
               <p className="">{excerpt}</p>
           </div>
-          <div>
+          <div className="lg:justify-end lg:text-right">
             {tags.map(tag => (
               <Badge key={tag} pill variant="dark" className="px-2 mr-1">
                 {tag}
