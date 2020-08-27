@@ -24,9 +24,9 @@ export default ({ data }) => {
 
         <ParallaxLayer offset={0} speed={0} factor={3} style={{ width: '100%', boxSizing: 'border-box', backgroundImage: url('stars', true), backgroundSize: 'cover' }} />
 
-        <ParallaxLayer offset={0} speed={1}>
+        <ParallaxLayer offset={0} speed={1} className="flex">
         {/* <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#805E73' }} /> */}
-          <Container className="flex flex-col items-center pt-5 mt-5" fluid>
+          <Container className="self-center flex flex-col items-center" fluid>
             <Image
               width="150"
               height="150"
