@@ -7,7 +7,7 @@ export default ({ excerpt, featuredImages, tags, title, to }) => {
   return (
     // <Container className="text-center">
     <Link to={to} style={{ textDecoration: "none"}}>
-      <div className="bg-gray-100 bg-opacity-50 shadow-md rounded-lg m-3 px-6 py-4">
+      <div className="bg-gray-100 bg-opacity-50 shadow-md rounded-lg px-6 py-4">
         {/* <Row>
           {featuredImages &&
             featuredImages.map(image => (
@@ -20,7 +20,7 @@ export default ({ excerpt, featuredImages, tags, title, to }) => {
           <div className="lg:w-5/6">
               <h2>{title}</h2>
               {/* <Ago>{moment(date, 'MMMM-DD-YYYY').fromNow()}</Ago> */}
-              <p className="">{excerpt}</p>
+              <p className="mb-0">{excerpt}</p>
           </div>
           <div className="lg:justify-end lg:text-right">
             {tags.map(tag => (

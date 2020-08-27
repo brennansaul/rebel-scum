@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Rebel Scum"
 tags: ["Gatsby.js", "react-spring", "SCSS", "Tailwind CSS", "Netlify"]
 date: "2017-10-17"
 ---

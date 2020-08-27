@@ -15,10 +15,10 @@ const Projects = ({ data }) => {
     // <PageLayout>
     //   <SEO title="Projects" />
     //   <PageTitle title="Projects" />
-      <Container className="text-left" style={{width: '70%'}}>
+      <Container className="text-left" style={{width: '65%'}}>
         <section>
           {allProjects.map(({ node }) => (
-            <div key={node.id} className="p-3">
+            <div key={node.id} className="mb-5">
               <ProjectLink
                 to={node.fields.slug}
                 featuredImages={featuredImageMap[node.fields.slug]}
@@ -26,7 +26,7 @@ const Projects = ({ data }) => {
                 tags={node.frontmatter.tags}
                 excerpt={node.excerpt}
               />
-              <hr />
+              {/* <hr /> */}
             </div>
           ))}
         </section>
