@@ -24,6 +24,7 @@ const Projects = ({ data }) => {
                 featuredImages={featuredImageMap[node.fields.slug]}
                 title={node.frontmatter.title}
                 tags={node.frontmatter.tags}
+                date={node.frontmatter.date}
                 excerpt={node.excerpt}
               />
               {/* <hr /> */}

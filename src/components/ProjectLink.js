@@ -1,9 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
-import Img from "gatsby-image"
-import { Container, Badge, Col, Row } from "react-bootstrap"
+import { Link } from "gatsby";
+import Img from "gatsby-image";
+import { Container, Badge, Col, Row } from "react-bootstrap";
+import moment from 'moment';
 
-export default ({ excerpt, featuredImages, tags, title, to }) => {
+// const Ago = styled.div.attrs({
+//   className: 'text-xs tracking-narrow font-bold',
+// })`
+//   color: ${textColor};
+//   transition: color 200ms ease;
+// `
+
+
+export default ({ excerpt, featuredImages, tags, date, title, to }) => {
   return (
     // <Container className="text-center">
     <Link to={to} style={{ textDecoration: "none"}}>
@@ -19,7 +28,8 @@ export default ({ excerpt, featuredImages, tags, title, to }) => {
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="lg:w-5/6">
               <h2>{title}</h2>
-              {/* <Ago>{moment(date, 'MMMM-DD-YYYY').fromNow()}</Ago> */}
+              <div className="mb-2 text-muted">{moment(date, 'DD MMMM, YYYY').fromNow()}</div>
+              {/* <div>{date}</div> */}
               <p className="mb-0">{excerpt}</p>
           </div>
           <div className="lg:justify-end lg:text-right">
