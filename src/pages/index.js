@@ -134,9 +134,11 @@ export default ({ data }) => {
             </div>
           </Container>
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={.3} style={{ pointerEvents: 'none', paddingTop: '100px' }}>
+        <ParallaxLayer offset={1} speed={.5} style={{ pointerEvents: 'none', paddingTop: '100px' }}>
           <img className="animate-wiggle" src={dark ? `http://pngimg.com/uploads/starwars/starwars_PNG56.png` : 'http://pngimg.com/uploads/starwars/starwars_PNG10.png'} style={{ width: '20%', marginRight: '70%' }} />
           <img className="animate-up-down" src={dark ? `http://pngimg.com/uploads/starwars/starwars_PNG54.png` : 'https://www.freepngimg.com/thumb/star_wars/7-2-star-wars-ship-png-thumb.png'} style={{ width: '15%', marginLeft: '84%' }} />
+          <img className="animate-left-right" src={dark ? `https://vignette.wikia.nocookie.net/battlefront/images/9/96/Slave_One_DICE.png/revision/latest/top-crop/width/360/height/450?cb=20170519211514` : 'https://www.gmbinder.com/images/fGHNLkT.png'} style={{ width: '15%', marginRight: '60%' }} />
+          <img className="animate-wiggle" src={dark ? `https://vignette.wikia.nocookie.net/starwars/images/9/9b/StarDestroyer_negvv.png/revision/latest?cb=20170411234804` : 'https://vignette.wikia.nocookie.net/nathans-world/images/4/43/MillenniumFalconTFA-Fathead.png/revision/latest?cb=20190321035948'} style={{ width: '25%', marginLeft: '70%' }} />
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={1}>
               <h1 style={{ pointerEvents: 'none', paddingTop: '100px' }}><span className="first-name">Projects</span></h1>
