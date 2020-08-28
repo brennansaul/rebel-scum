@@ -135,8 +135,8 @@ export default ({ data }) => {
           </Container>
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={.3} style={{ pointerEvents: 'none', paddingTop: '100px' }}>
-          <img src={dark ? `http://pngimg.com/uploads/starwars/starwars_PNG56.png` : 'http://pngimg.com/uploads/starwars/starwars_PNG10.png'} style={{ width: '20%', marginRight: '70%' }} />
-          <img src={dark ? `http://pngimg.com/uploads/starwars/starwars_PNG54.png` : 'https://www.freepngimg.com/thumb/star_wars/7-2-star-wars-ship-png-thumb.png'} style={{ width: '15%', marginLeft: '84%' }} />
+          <img className="animate-wiggle" src={dark ? `http://pngimg.com/uploads/starwars/starwars_PNG56.png` : 'http://pngimg.com/uploads/starwars/starwars_PNG10.png'} style={{ width: '20%', marginRight: '70%' }} />
+          <img className="animate-up-down" src={dark ? `http://pngimg.com/uploads/starwars/starwars_PNG54.png` : 'https://www.freepngimg.com/thumb/star_wars/7-2-star-wars-ship-png-thumb.png'} style={{ width: '15%', marginLeft: '84%' }} />
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={1}>
               <h1 style={{ pointerEvents: 'none', paddingTop: '100px' }}><span className="first-name">Projects</span></h1>
