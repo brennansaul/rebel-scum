@@ -1,5 +1,11 @@
 See me [live!](https://gatsby-starter-portfolio.herokuapp.com/)
 
+# My References
+- https://tailwindcss.com/docs/installation
+- https://github.com/coloradocolby/colby.sh
+- https://www.gatsbyjs.com/docs/tailwind-css/
+- https://www.gatsbyjs.com/docs/page-query/#how-does-the-graphql-tag-work
+
 ## Usage
 
 `npm i -g gatsby-cli`\
