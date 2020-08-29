@@ -6,15 +6,12 @@ import Container from "react-bootstrap/Container"
 
 
 const Projects = ({ data }) => {
-  const allProjects = data.allMarkdownRemark.edges || []
-  const allFeaturedImages = data.allFile.edges || []
-  const regex = /\/[projects].*\/|$/
-  const featuredImageMap = Utils.getImageMap(allFeaturedImages, regex, true, 3)
+  const allProjects = data.allMarkdownRemark.edges || [];
+  const allFeaturedImages = data.allFile.edges || [];
+  const regex = /\/[projects].*\/|$/;
+  const featuredImageMap = Utils.getImageMap(allFeaturedImages, regex, true, 3);
   
   return (
-    // <PageLayout>
-    //   <SEO title="Projects" />
-    //   <PageTitle title="Projects" />
       <Container className="text-left" style={{width: '65%'}}>
         <section>
           {allProjects.map(({ node }) => (
@@ -27,12 +24,10 @@ const Projects = ({ data }) => {
                 date={node.frontmatter.date}
                 excerpt={node.excerpt}
               />
-              {/* <hr /> */}
             </div>
           ))}
         </section>
       </Container>
-    // </PageLayout>
   )
 }
 
@@ -64,7 +59,7 @@ const ProjectsSection = () => (
         }
         allFile(
           filter: {
-            extension: { eq: "jpg" }
+            extension: { eq: "png" }
             relativePath: { regex: "/feature/" }
             relativeDirectory: { regex: "/content/projects/" }
           }
